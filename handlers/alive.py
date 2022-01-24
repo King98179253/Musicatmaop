@@ -39,8 +39,8 @@ async def start_(client: Client, message: Message):
 💥 𝗛𝗘𝗟𝗟𝗢, 𝗜 𝗔𝗠 𝗦𝗨𝗣𝗘𝗥 𝗙𝗔𝗦𝗧 𝗠𝗨𝗦𝗜𝗖 𝗣𝗟𝗔𝗬𝗘𝗥
 𝗕𝗢𝗧 𝗙𝗢𝗥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 𝗚𝗥𝗢𝗨𝗣...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ 𝗖𝗥𝗘𝗔𝗧𝗘𝗥 : [ᴏᴡɴᴇʀ](https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK)
-┣★ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : [ᴊᴏɪɴ](https://t.me/SUBHI_WORLD)
+┣★ ᴄʀᴇᴀᴛᴇʀ : [ᴏᴡɴᴇʀ](https://t.me/ZINDA_H_TU_MERE_LIYE_HEART_HACK)
+┣★ ꜱᴜᴘᴘᴏʀᴛ : [ᴊᴏɪɴ](https://t.me/SUBHI_WORLD)
 ┣★ ɢɪᴠᴇ ᴀ ʜᴇᴀʀᴛ : [ᴄʟɪᴄᴋ](https://t.me/A_BUT/32)
 ┗━━━━━━━━━━━━━━━━━┛
 
