@@ -112,7 +112,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("**🔄 𝗣𝗥𝗢𝗦𝗘𝗦𝗦𝗜𝗡G...**")
+    lel = await message.reply("**🔄 ᴡᴀɪᴛ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -143,21 +143,21 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id,
-                        "**💐𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖 ♻️ 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 🤞 𝗡𝗢𝗪 🌹 𝗥𝗘𝗔𝗗𝗬 👻\n😘 𝗧𝗢 ✌️ 𝗣𝗟𝗔𝗬 💞 𝗠𝗨𝗦𝗜𝗖 🌷...**",
+                        "**💐ʙʜᴀᴛᴀᴋᴛɪ ᴀᴛᴍᴀ ᴍᴜꜱɪᴄ ᴀꜱꜱɪꜱᴛᴀɴᴛ ɴᴏᴡ ʀᴇᴀᴅʏ ᴛᴏ ᴘʟᴀʏ🌷...**",
                     )
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>💥𝗦𝗥𝗬 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 😔 𝗙𝗔𝗜𝗟𝗗 ⚠️ 𝗧𝗢 📵\n🥺 𝗝𝗢𝗜𝗡 ✌️ 𝗝𝗢𝗜𝗡 💞 𝗖𝗛𝗔𝗧 🌷..."
+                        f"<b>💥ꜱᴏʀʀʏ ᴀꜱꜱɪꜱᴛᴀɴᴛ ꜰᴀɪʟᴅ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀᴛ🌷..."
                     )
     try:
         await USER.get_chat(chid)
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"**💥 𝗦𝗥𝗬 𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 😔 𝗙𝗔𝗜𝗟𝗗 ⚠️ 𝗧𝗢 📵\n🥺 𝗝𝗢𝗜𝗡 ✌️ 𝗝𝗢𝗜𝗡 💞 𝗖𝗛𝗔𝗧 🌷...**"
+            f"**💥ꜱᴏʀʀʏ ᴀꜱꜱɪꜱᴛᴀɴᴛ ꜰᴀɪʟᴅ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀᴛ🌷...**"
         )
         return
 
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 𝗣𝗟𝗔𝗬 🔊 𝗠𝗨𝗦𝗜𝗖 ✨ 𝗪𝗔𝗜𝗧 ⚡️\n🤟 𝗧𝗛𝗢𝗗𝗜 😒 𝗗𝗘𝗥 ⚡️ {DURATION_LIMIT} 💞...**"
+                f"**💥ᴡᴀɪᴛ ᴘʟᴀʏɪɴɢ ᴍᴜꜱɪᴄ ʙʏ ʙʜᴀᴛᴀᴋᴛɪ ᴀᴛᴍᴀ ꜱᴇʀᴠᴇʀ {DURATION_LIMIT} 💞...**"
             )
 
         file_name = get_file_name(audio)
@@ -185,8 +185,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥𝗟𝗘𝗧,𝗦 𝗝𝗢𝗜𝗡 𝗠𝗬 𝗚𝗥𝗢𝗨𝗣💞",
-                            url=f"https://t.me/lovely_friends_2")
+                            text="💥ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ🔧",
+                            url=f"https://t.me/SUBHI_WORLD")
 
                 ]
             ]
@@ -224,8 +224,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="𝗟𝗘𝗧,𝗦 𝗝𝗢𝗜𝗡 𝗠𝗬 ⚜️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 ♻️ 𝗚𝗥𝗢𝗨𝗣",
-                            url=f"https://t.me/lovely_friends_2")
+                            text="🔐ᴊᴏɪɴɪɴɢ ꜰᴏʀ ꜱᴜᴘᴘᴏʀᴛ🔐",
+                            url=f"https://t.me/SUBHI_WORLD")
 
                 ]
             ]
@@ -240,8 +240,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥𝗝𝗢𝗜𝗡 𝗛𝗘𝗥𝗘 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 💞",
-                            url=f"https://t.me/lovely_friends_2")
+                            text="💥ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ💞",
+                            url=f"https://t.me/SUBHI_WORLD")
 
                 ]
             ]
@@ -258,12 +258,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 𝗕𝗛𝗔𝗜 ⚜️ 𝗬𝗔 𝗨𝗦𝗞𝗜 𝗕𝗛𝗘𝗡 ⚠️ 🥱 𝗡𝗔𝗔𝗠 😬 𝗕𝗧𝗔𝗢 𝗠𝗨𝗦𝗜𝗖 ⚜️ 𝗞𝗔 😍\n💞 𝗬𝗔 𝗣𝗔𝗚𝗔𝗟 𝗛𝗢 🌷...**"
+                "**🤖ᴘʟᴇᴀꜱᴇ ɢɪᴠᴇ ᴍᴇ ᴀ ᴍᴜꜱɪᴄ ɴᴀᴍᴇ🌷...**"
             )
-        await lel.edit("**🔎 𝗦𝗘𝗔𝗥𝗖𝗛𝗜𝗡𝗚 ...**")
+        await lel.edit("🔎")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**🔄 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧 ...**")
+        await lel.edit("**🔄 ᴡᴀɪᴛ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -295,8 +295,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 𝗝𝗢𝗜𝗡 𝗙𝗢𝗥 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 💞",
-                            url=f"https://t.me/lovely_friends_2")
+                            text="💥ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ💞",
+                            url=f"https://t.me/SUBHI_WORLD")
 
                 ]
             ]
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗔𝗧𝗠𝗔 🤞 𝗠𝗨𝗦𝗜𝗖 💞\n🎸 𝗡𝗢𝗪  🔊 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 😍 𝗢𝗣 🥀 𝗦𝗢𝗨𝗡𝗗  ...**".format(),
+            caption="**💥ʙʜᴀᴛᴀᴋᴛɪ ᴀᴛᴍᴀ ᴍᴜꜱɪᴄ ɴᴏᴡ ᴘʟᴀʏ/n🔊ʟᴇᴛ,ꜱ ᴇɴᴊᴏʏ ...**".format(),
         )
 
     os.remove("final.png")
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥 𝗠𝗔𝗜 𝗧𝗢 𝗖𝗛𝗨𝗣 🤞 𝗛𝗢 𝗚𝗬𝗔 𝗔𝗕𝗕 𝗞𝗥𝗢 🥶\n💞 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜 🥀 ▶️ 𝗣𝗔𝗨𝗦𝗘𝗗 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖🌷 ...**"
+                             caption="**💥𝗠𝗔𝗜 𝗧𝗢 𝗖𝗛𝗨𝗣🤞𝗛𝗢 𝗚𝗬𝗔 𝗔𝗕𝗕 𝗞𝗥𝗢 🥶\n💞 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜  ▶️𝗣𝗔𝗨𝗦𝗘𝗗 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖🌷 ...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥 𝗛𝗢 𝗚𝗬𝗜 𝗞𝗛𝗔𝗧𝗔𝗠 ♻️ 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜 𝗔𝗣𝗞𝗜 👅 𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗔𝗥𝗧 🤞 𝗔𝗚𝗔𝗜𝗡\n𝗡𝗢𝗪🥀 ⏸ 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗧𝗢 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗠𝗨𝗦𝗜𝗖🌷 ...**"
+                             caption="**💥 𝗛𝗢 𝗚𝗬𝗜 𝗞𝗛𝗔𝗧𝗔𝗠 ♻️ 𝗕𝗔𝗞𝗖𝗛𝗢𝗗𝗜 𝗔𝗣𝗞𝗜 👅𝗠𝗨𝗦𝗜𝗖 𝗦𝗧𝗔𝗥𝗧 🤞 𝗔𝗚𝗔𝗜𝗡\n𝗡𝗢𝗪🥀 ⏸ 𝗣𝗟𝗔𝗬𝗜𝗡𝗚 𝗧𝗢 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜 𝗠𝗨𝗦𝗜𝗖🌷 ...**"
     )
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png", 
-                             caption="**💥 𝗞𝗛𝗨𝗝𝗟𝗜 😑 𝗛 𝗞𝗬𝗔 𝗕𝗘 🔈 𝗦𝗧𝗢𝗣 \n🤞 𝗞𝗬𝗨 🥀 ❌ 𝗞𝗜𝗬𝗔 😵𝗦𝗧𝗢𝗣𝗘𝗗 🌷 ...**"
+                             caption="**💥 𝗞𝗛𝗨𝗝𝗟𝗜 😑𝗛 𝗞𝗬𝗔 𝗕𝗘 🔈 𝗦𝗧𝗢𝗣 \n🤞 𝗞𝗬𝗨 🥀 ❌ 𝗞𝗜𝗬𝗔 😵𝗦𝗧𝗢𝗣𝗘𝗗...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://telegra.ph/file/ab23ee0880dd24f21affe.png",
-                              caption="**💥 𝗕𝗛𝗔𝗧𝗔𝗞𝗧𝗜_𝗠𝗨𝗦𝗜𝗖🔈🤞\n🥀 𝗡𝗢𝗪 🔥 𝗣𝗘𝗟𝗢𝗔𝗗𝗘𝗗 𝗗𝗢𝗡𝗘 ⚜️ ...**"
+                              caption="**💥 B̴H̴A̴T̴A̴K̴T̴I̴ A̴T̴M̴A̴ M̴U̴S̴I̴B̴ N̴O̴W̴ R̴E̴L̴O̴A̴D̴E̴D̴⚜️ ...**"
     )
