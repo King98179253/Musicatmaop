@@ -185,7 +185,7 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ🔧",
+                            text="💥ᴊᴏɪɴ ꜰᴏʀ ᴍᴏʀᴇ 🔧",
                             url=f"https://t.me/SUBHI_WORLD")
 
                 ]
