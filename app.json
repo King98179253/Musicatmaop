@@ -8,16 +8,17 @@
     "SESSION_NAME": {
       "description": "Pyrogram session string",
       "required": false,
+      "value":""
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "BOT_USERNAME": {
       "description": "Put Bot Username Without '@' Ex:- ZINDA_H_TU_MERE_LIYE_HEART_HACK",
       "required": true,
-      "value": "BHATAKTI_ATMA_MUSIC_bot"
+      "value": "BHATAKTI_ATMA_MUSIC_bot",
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -37,7 +38,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": false,
-      "value": "60"
+      "value": "600"
     }
   }
 }
