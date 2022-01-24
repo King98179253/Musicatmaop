@@ -2,22 +2,22 @@
   "name": "BHATAKTI_ATMA Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/King98179253",
+  "repository": "https://github.com/King98179253/Musicatmaop",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
       "description": "Pyrogram session string",
-      "required": false
+      "required": true,
     },
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "BOT_USERNAME": {
       "description": "Put Bot Username Without '@' Ex:- ZINDA_H_TU_MERE_LIYE_HEART_HACK",
       "required": true,
-      "value": "BACK_BENCHERS_bot"
+      "value": "BHATAKTI_ATMA_MUSIC_bot"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
