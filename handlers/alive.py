@@ -47,7 +47,7 @@ async def start_(client: Client, message: Message):
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
-                [
+                ]
                     InlineKeyboardButton(
                         "😆 ❰ 𝗟𝗘 𝗖𝗛𝗟𝗢 𝗨𝗧𝗛𝗔 𝗞𝗘 ❱ 😆", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
